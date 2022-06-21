@@ -1,0 +1,36 @@
+
+.grid {
+  margin-top: 60px;
+  grid-column-gap: 16px;
+  grid-template-areas: "Area Area-4"
+    "Area-2 Area-3";
+  -ms-grid-rows: auto auto auto;
+  grid-template-rows: auto auto auto;
+  margin-bottom: 60px;
+}
+
+.image {
+  border: 2px solid #000;
+}
+
+.image-2 {
+  border: 2px solid #000;
+}
+
+.image-3 {
+  border: 2px solid #000;
+}
+
+.image-4 {
+  border: 2px solid #000;
+}
+
+@media screen and (max-width: 991px) {
+  .image-5 {
+    border: 2px solid #000;
+  }
+
+  .image-6 {
+    border: 2px solid #000;
+  }
+}
